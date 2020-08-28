@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="vue.js"></script>
+    <title>Udemy VueJS</title>
+</head>
+<body>
+    <div id="app">
+        <h1 v-once>{{ title }}</h1>
+        <h1>{{ title }}</h1>
+        <button v-on:click="reverseTitle">
+        INverser
+        </button>
+        <p v-once :title="title">
+            <!-- v-bind:title mais on préfère le raccourci :title c plus simple -->
+        Lorem ipsum blablablou
+        <br>
+        <span>enfant: {{title}}</span>
+        </p>
+        <span>orphelin: {{title}}</span>
+        </div>
+
+
+
+        <script src="1&2section.js"></script>
+</body>
+</html>
